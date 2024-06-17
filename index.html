@@ -3,10 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HBnB Frontend</title>
+    <title>HBnB Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: #eee;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .top-right {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .top-right a {
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to HBnB Frontend</h1>
-    <p>This is a basic deployment of the HBnB front-end on GitHub Pages.</p>
+    <div class="top-right">
+        <a href="https://github.com/GuerinTifenn/holbertonschool-hbnb">Back to Repository</a>
+    </div>
+    <div class="container">
+        <h1>Holberton School - HBNB</h1>
+        <p>This project was completed in teams of three people (Nicolas Brault Domingo, Tifenn Guérin, Francia Ramarolahy).</p>
+
+        <h2>Description</h2>
+        <p>HBnB is a full-stack project that includes a web server, RESTful API, and a static HTML front-end. The project is structured to manage various tasks related to the development and deployment of a clone of the AirBnB web application.</p>
+
+        <h2>Table of Contents</h2>
+        <ul>
+            <li>1. Environment</li>
+            <li>2. Installation</li>
+            <li>3. Usage</li>
+            <li>4. Testing</li>
+        </ul>
+
+        <h3>1. Environment</h3>
+        <p>The project runs in a Linux environment and is tested on Ubuntu 14.04 LTS using Python 3.</p>
+
+        <h3>2. Installation</h3>
+        <p>Clone the repository:</p>
+        <pre><code>git clone https://github.com/GuerinTifenn/holbertonschool-hbnb.git</code></pre>
+
+        <h3>3. Usage</h3>
+        <p>To use the application, navigate to the project directory and run the main application file:</p>
+        <pre><code>./console.py</code></pre>
+
+        <h3>4. Testing</h3>
+        <p>Run the unit tests:</p>
+        <pre><code>python3 -m unittest discover tests</code></pre>
+    </div>
 </body>
 </html>
